@@ -115,7 +115,7 @@ p { color: #6b4434; }
   align-items: center;
 }
 
-.hero-text h1 {
+.hero h1 {
   margin-bottom: 1.25rem;
 }
 
@@ -221,6 +221,27 @@ p { color: #6b4434; }
   margin-bottom: 0.4rem;
 }
 
+.story {
+  padding: var(--section-pad) 0;
+}
+
+.story--surface {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.story-body p + p {
+  margin-top: 1rem;
+}
+
 .site-footer {
   background: var(--text);
   color: var(--surface);
@@ -235,7 +256,8 @@ p { color: #6b4434; }
 
 @media (max-width: 800px) {
   .hero-grid,
-  .visit-grid {
+  .visit-grid,
+  .story-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
