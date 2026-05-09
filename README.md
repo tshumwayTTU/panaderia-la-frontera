@@ -23,7 +23,7 @@ Plain HTML5 and CSS3 with semantic markup. A single stylesheet (`style.css`) dri
 
 ## Project management documentation
 
-I scoped, planned, and reflected on this build using the PMUPM framework. Each doc in `docs/` is committed alongside the code it shaped:
+I scoped, planned, and reflected on this build using the PMUPM framework. Each doc in [`docs/`](docs/) is committed alongside the code it shaped:
 
 - **[scope.md](docs/scope.md)**: project scope statement: purpose, deliverables, exclusions, priorities, acceptance criteria (PMUPM Ch. 3)
 - **[plan.md](docs/plan.md)**: risk strategy with TAME plans, work breakdown structure, schedule with PERT estimate, critical path, milestones (PMUPM Ch. 4)
